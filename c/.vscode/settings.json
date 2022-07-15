@@ -1,0 +1,14 @@
+{
+    "code-runner.executorMap": {
+        
+        "c": "powershell.exe cd $dir && gcc $fileName -o $workspaceRoot\\out\\$fileNameWithoutExt && $workspaceRoot\\out\\$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $workspaceRoot\\out\\$fileNameWithoutExt && $workspaceRoot\\out\\$fileNameWithoutExt"
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "grunt.autoDetect": "on",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "explorer.confirmDelete": false,
+    "C_Cpp.errorSquiggles": "Enabled",
+
+}

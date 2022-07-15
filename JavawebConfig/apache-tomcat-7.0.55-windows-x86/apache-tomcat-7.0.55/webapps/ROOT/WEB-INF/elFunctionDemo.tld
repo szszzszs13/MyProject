@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+  version="2.0">
+  <description>自定义的el函数库信息</description>
+  <display-name>JSTL functions</display-name>
+  <tlib-version>1.0</tlib-version>
+  <short-name>myFn</short-name>
+  <uri>/myElFn</uri>
+  <function>
+    <!-- 函数名信息 -->
+    <name>dataToString</name>
+    <!-- 函数的处理类信息 -->
+    <function-class>com.inspur.ch5.DateFormatDemo</function-class>
+    <!-- 方法的签名信息，包括返回值，方法名，方法的参数信息，且参数类型之间用逗号进行分割 -->
+    <function-signature>java.lang.String dateToString(java.util.Date)</function-signature> 
+  </function>
+</taglib>
